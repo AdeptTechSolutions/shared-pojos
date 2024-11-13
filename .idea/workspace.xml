@@ -4,23 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dae09c5b-139a-4d3d-9d0c-5d6ddc81426f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AnalysisDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FeatureEngDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OutlierJobDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RdbmsNullValuesDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ResponseObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SchedulingJobDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SelectedDnaDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SignatureRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SignatureVersioningDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SqlJobDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/UserResourcesDto.java" afterDir="false" />
+    <list default="true" id="dae09c5b-139a-4d3d-9d0c-5d6ddc81426f" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/ScheduledJobEmailDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/ResponseObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/ResponseObject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,22 +26,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/ATS Services/ascend.shared.pojos/src/main/java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.20344828"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/ATS Services/ascend.shared.pojos/src/main/java&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.20344828&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\ATS Services\ascend.shared.pojos\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.ascend.shared.pojos" />
       <recent name="" />
     </key>
   </component>
@@ -66,8 +55,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731396824022</updated>
-      <workItem from="1731396826551" duration="3351000" />
+      <workItem from="1731396826551" duration="5573000" />
+      <workItem from="1731477985218" duration="2902000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1731400511373</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731400511373</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,5 +81,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
