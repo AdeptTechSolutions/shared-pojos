@@ -1,13 +1,14 @@
 package org.ascend.shared.pojos;
 
 import lombok.*;
+import org.ascend.shared.pojos.shared.SharedProperties;
 
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class AnalysisDto extends UserResourcesDto {
+public class AnalysisDto extends SharedProperties {
     private Integer parentFileId;
     private Integer userId;
     String detail;

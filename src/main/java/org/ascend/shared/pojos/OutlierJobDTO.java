@@ -3,11 +3,12 @@ package org.ascend.shared.pojos;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.ascend.shared.pojos.shared.SharedProperties;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class OutlierJobDTO extends UserResourcesDto {
+public class OutlierJobDTO extends SharedProperties {
     Integer parentFileId;
     Integer fileId;
     String method;

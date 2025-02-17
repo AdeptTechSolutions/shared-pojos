@@ -2,12 +2,13 @@ package org.ascend.shared.pojos;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.ascend.shared.pojos.shared.SharedProperties;
 
 import java.io.Serializable;
 
 @Data
 @NoArgsConstructor
-public class FeatureEngDto extends UserResourcesDto implements Serializable {
+public class FeatureEngDto extends SharedProperties implements Serializable {
     private Integer parentFileId;
     private Integer userId;
     String detail;

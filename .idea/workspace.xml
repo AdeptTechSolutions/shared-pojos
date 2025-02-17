@@ -4,15 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dae09c5b-139a-4d3d-9d0c-5d6ddc81426f" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/ScheduledJobEmailDto.java" afterDir="false" />
+    <list default="true" id="dae09c5b-139a-4d3d-9d0c-5d6ddc81426f" name="Changes" comment="added new dto class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/DataDriftDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/PostStatsJobDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/PreProcessDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/rdbms/DatabaseCredentialsModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/rdbms/DatabaseCredentialsRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/rdbms/DatabaseTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/rdbms/RdbmsSaveConfigurationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/rdbms/RunQueryModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/rdbms/SchemaStatsRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/shared/SharedProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/ResponseObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/ResponseObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/AnalysisDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/AnalysisDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/FeatureEngDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/FeatureEngDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/OutlierJobDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/OutlierJobDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/ResponseObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/SignatureRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/SignatureRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/SignatureVersioningDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/SignatureVersioningDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/SqlJobDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/SqlJobDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/UserResourcesDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ascend/shared/pojos/UserResourcesDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,7 +79,16 @@
       <option name="presentableId" value="Default" />
       <updated>1731396824022</updated>
       <workItem from="1731396826551" duration="5573000" />
-      <workItem from="1731477985218" duration="2902000" />
+      <workItem from="1731477985218" duration="3184000" />
+      <workItem from="1731662868227" duration="1211000" />
+      <workItem from="1732255715296" duration="704000" />
+      <workItem from="1733467274729" duration="865000" />
+      <workItem from="1733806736903" duration="2894000" />
+      <workItem from="1736148107943" duration="4440000" />
+      <workItem from="1736229749511" duration="1461000" />
+      <workItem from="1738217600676" duration="820000" />
+      <workItem from="1738573480004" duration="38000" />
+      <workItem from="1739173562007" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1731400511373</created>
@@ -65,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1731400511373</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added new dto class">
+      <created>1731492434559</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731492434559</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +123,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="added new dto class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new dto class" />
   </component>
 </project>
