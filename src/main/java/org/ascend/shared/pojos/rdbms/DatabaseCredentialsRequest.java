@@ -1,5 +1,9 @@
 package org.ascend.shared.pojos.rdbms;
 
+import io.swagger.v3.oas.annotations.media.Schema;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 
 import java.util.Date;
@@ -9,101 +13,41 @@ public class DatabaseCredentialsRequest {
 
 	private Integer id;
 
+	@NotNull(message = "Database type is required")
+	@Schema(example = "Postgresql", description = "Type of database to save and connect to")
 	private DatabaseTypeEnum type;
 
+	@NotBlank(message = "Host name is required")
+	@Schema(example = "https://your-host.com", description = "Host of database to save and connect to")
 	private String hostName;
 
+	@NotBlank(message = "Database name is required")
+	@Schema(example = "your_database", description = "Name of database to save and connect to")
 	private String databaseName;
 
+	@NotBlank(message = "User name is required")
+	@Schema(example = "root", description = "User of database to save and connect to")
 	private String userName;
 
+	@NotBlank(message = "Password is required")
+	@Schema(example = "your_password", description = "Password of database to save and connect to")
 	private String password;
 
+	@Min(value = 1, message = "Port must be greater than 0")
+	@Schema(example = "3306", description = "Port of database to save and connect to")
 	private int port;
 
+//	@NotBlank(message = "Project name is required")
+	@Schema(example = "DB Project", description = "Project Name to save the database credentials into")
 	private String projectName;
 
+	@NotNull(message = "Project ID is required")
+	@Schema(example = "80", description = "Project ID to save database credentials into")
 	private Integer projectId;
 
+	@Schema(example = "your-sid", description = "Oracle SID")
 	private String oracleSid;
 
 	private Date createdAt;
 
-
-//	public Integer getId() {
-//		return id;
-//	}
-//
-//	public void setId(Integer id) {
-//		this.id = id;
-//	}
-//
-//	public DatabaseTypeEnum getType() {
-//		return type;
-//	}
-//
-//	public void setType(DatabaseTypeEnum type) {
-//		this.type = type;
-//	}
-//
-//	public String getHostName() {
-//		return hostName;
-//	}
-//
-//	public void setHostName(String hostName) {
-//		this.hostName = hostName;
-//	}
-//
-//	public String getDatabaseName() {
-//		return databaseName;
-//	}
-//
-//	public void setDatabaseName(String databaseName) {
-//		this.databaseName = databaseName;
-//	}
-//
-//	public String getUserName() {
-//		return userName;
-//	}
-//
-//	public void setUserName(String userName) {
-//		this.userName = userName;
-//	}
-//
-//	public String getPassword() {
-//		return password;
-//	}
-//
-//	public void setPassword(String password) {
-//		this.password = password;
-//	}
-//
-//	public int getPort() {
-//		return port;
-//	}
-//
-//	public void setPort(int port) {
-//		this.port = port;
-//	}
-//
-//	public Integer getProjectId() {
-//		return projectId;
-//	}
-//
-//	public void setProjectName(String projectName) {
-//		this.projectName = projectName;
-//	}
-//
-//	public void setProjectId(Integer projectName) {
-//		this.projectId = projectName;
-//	}
-//
-//
-//	public String getOracleSid() {
-//		return oracleSid;
-//	}
-//
-//	public void setOracleSid(String oracleSid) {
-//		this.oracleSid = oracleSid;
-//	}
 }

@@ -1,4 +1,4 @@
-package org.ascend.shared.pojos;
+package org.ascend.shared.pojos.shared;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
