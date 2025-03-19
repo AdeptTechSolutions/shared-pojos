@@ -8,12 +8,12 @@ import lombok.Data;
 @Data
 public class SchemaStatsRequestDto {
 
-	@NotNull(message = "Project ID is required")
-	@Schema(example = "80", description = "Project ID associated with the saved database credentials")
-	private Integer projectId;
+//	@NotNull(message = "Project ID is required")
+//	@Schema(example = "80", description = "Project ID associated with the saved database credentials")
+//	private Integer projectId;
 
-	@NotNull(message = "Schema ID is required")
-	private Integer schemaId;
+//	@NotNull(message = "Schema ID is required")
+//	private Integer schemaId;
 
 	@NotBlank(message = "Data source cannot be blank")
 	private String dataSource;
