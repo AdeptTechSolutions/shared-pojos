@@ -25,9 +25,9 @@ public class RdbmsSaveConfigurationDTO {
 	@Schema(example = "80", description = "Project ID associated with the saved database credentials to save configuration")
 	private Long projectId;
 
-	@NotNull(message = "User ID is required")
-	@Schema(example = "10", description = "User ID of user making the request")
-	private Long userId;
+//	@NotNull(message = "User ID is required")
+//	@Schema(example = "10", description = "User ID of user making the request")
+//	private Long userId;
 
 	@NotNull(message = "Main object cannot be null")
 	@Schema(example = "{\n\t\"table_name\": [\n\t\t\"column 1\",\n\t\t\"column 2\",\n\t\t\"column 3\",\n\t\t\"column 4\"\n\t]\n}",
