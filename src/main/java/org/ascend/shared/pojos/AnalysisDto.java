@@ -21,6 +21,7 @@ public class AnalysisDto extends SharedProperties {
     String correlationType;
     String correlationFileName;
     String covarianceCols;
+    String categoricalColumns;
     String windowStatisticType;
     String windowDataFeaturesCol ;
     String windowPivotFeaturesCol;
