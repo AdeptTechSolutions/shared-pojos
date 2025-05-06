@@ -28,4 +28,13 @@ public class FeatureEngDto extends SharedProperties implements Serializable {
     String targetColType;
     String method;
     Boolean replaceWithCompliantHeaders;
+
+    // for class imbalance job only
+    Integer binFunc;
+    String isOutputSorted;
+    String isTimeSeriesData;
+    String selectedIndexColumn;
+    String anonColumnsMappedJson;
+    String categoricalColumnsJson;
+    Boolean enableDnaSizeReduction;
 }
