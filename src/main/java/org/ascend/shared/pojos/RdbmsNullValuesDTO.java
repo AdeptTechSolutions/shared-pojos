@@ -21,4 +21,11 @@ public class RdbmsNullValuesDTO extends SqlJobDTO {
 //   @NotNull(message = "Database user is required")
 //   @Schema(example = "true", description = "Whatever to extract and save DNA of database as well")
    private Boolean shouldExtractSignatureDna;
+
+   // Optional fields for db_dna.py advanced features
+   @Schema(description = "Operating mode for db_dna.py: detailed, balanced, or efficient", example = "balanced")
+   private String operatingMode;
+
+   @Schema(description = "Scaling factor for data generation (default: 1.0)", example = "1.0")
+   private Double scalingFactor;
 }

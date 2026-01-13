@@ -37,4 +37,12 @@ public class SqlJobDTO extends SharedProperties {
     String databaseType; // for db preprocess job
     Integer port; // for db preprocess job
     String statsPath;
+    
+    // Optional: Faker configuration for db_dna script
+    // Structure: Map<String, Map<String, String>> where:
+    // - First key: table name
+    // - Second key: column name
+    // - Value: Faker provider name (e.g., "email", "name", "phone_number", "address")
+    // Example: {"users": {"email": "email", "full_name": "name"}, "orders": {"customer_email": "email"}}
+    Object fakerConfig;
 }
