@@ -45,4 +45,12 @@ public class SqlJobDTO extends SharedProperties {
     // - Value: Faker provider name (e.g., "email", "name", "phone_number", "address")
     // Example: {"users": {"email": "email", "full_name": "name"}, "orders": {"customer_email": "email"}}
     Object fakerConfig;
+    
+    // Optional: Tables configuration for db_dna script
+    // Structure: Map<String, Map<String, String>> where:
+    // - First key: table name
+    // - Second key: column name
+    // - Value: Column role (e.g., "PK", "FK", "Correlative", "Drop")
+    // Example: {"users": {"id": "PK", "email": "Correlative"}, "orders": {"user_id": "FK"}}
+    Object tablesConfig;
 }
