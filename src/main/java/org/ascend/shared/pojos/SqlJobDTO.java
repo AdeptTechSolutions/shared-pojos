@@ -53,4 +53,8 @@ public class SqlJobDTO extends SharedProperties {
     // - Value: Column role (e.g., "PK", "FK", "Correlative", "Drop")
     // Example: {"users": {"id": "PK", "email": "Correlative"}, "orders": {"user_id": "FK"}}
     Object tablesConfig;
+
+    // Optional: Snowflake FK reference mappings
+    // Structure: {table: {column: {refTable, refColumn}}}
+    Object fkReferences;
 }
