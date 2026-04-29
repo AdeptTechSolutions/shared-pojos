@@ -57,4 +57,10 @@ public class SqlJobDTO extends SharedProperties {
     // Optional: Snowflake FK reference mappings
     // Structure: {table: {column: {refTable, refColumn}}}
     Object fkReferences;
+
+    // Snowflake-specific connection fields (null for non-Snowflake)
+    String sfAccount;
+    String sfWarehouse;
+    String sfSchema;
+    String sfRole;
 }
