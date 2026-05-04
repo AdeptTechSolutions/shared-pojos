@@ -52,15 +52,12 @@ public class SqlJobDTO extends SharedProperties {
     // Example: {"users": {"id": "PK", "email": "Correlative"}, "orders": {"user_id": "FK"}}
     Object tablesConfig;
 
-    /** Snowflake account identifier; callers may normalize host suffix. */
+    // Snowflake FK reference mappings: {table: {column: {refTable, refColumn}}}
+    Object fkReferences;
+
+    // Snowflake-specific connection fields (null for non-Snowflake)
     String sfAccount;
     String sfWarehouse;
     String sfSchema;
     String sfRole;
-
-    /**
-     * Optional FK references for Snowflake schema_config (e.g. nested maps keyed by table/column).
-     * Consumed as Map by ascend_backend KubernetesSparkService.
-     */
-    Object fkReferences;
 }
