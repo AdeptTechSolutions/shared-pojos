@@ -4,7 +4,7 @@ import java.util.Optional;
 
 public enum DatabaseTypeEnum {
 
-	MySQL, Postgresql, Oracle, MSSQLServer;
+	MySQL, Postgresql, Oracle, MSSQLServer, Snowflake;
 
 
 	public static Optional<DatabaseTypeEnum> fromString(String value) {
