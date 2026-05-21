@@ -62,8 +62,4 @@ public class SqlJobDTO extends SharedProperties {
     String sfWarehouse;
     String sfSchema;
     String sfRole;
-    String sfAuthType;           // "password" | "pat" | "keypair"
-    String sfToken;              // PAT token (auth_type=pat)
-    String sfPrivateKeyPath;     // filesystem path to .p8 file (auth_type=keypair)
-    String sfPrivateKeyPassphrase; // passphrase for encrypted key (auth_type=keypair)
 }
