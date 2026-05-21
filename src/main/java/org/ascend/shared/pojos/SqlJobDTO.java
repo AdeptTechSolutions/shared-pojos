@@ -62,4 +62,8 @@ public class SqlJobDTO extends SharedProperties {
     String sfWarehouse;
     String sfSchema;
     String sfRole;
+    /** password | pat | keypair — used by db_dna.py when resolving auth from stored credentials */
+    String sfAuthType;
+    /** Source row in database_credentials; backend loads secrets (incl. PEM) by id for jobs */
+    Integer sourceDatabaseCredentialId;
 }
